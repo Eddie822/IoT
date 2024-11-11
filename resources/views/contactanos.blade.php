@@ -28,16 +28,16 @@
                         style=" color: black; font-size: 1.2rem; border-radius: 0;">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href=="{{ route('que') }}" style="color: black; font-size: 1.2rem;">¿Que es?</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('que') }}" style="color: black; font-size: 1.2rem;">¿Que es?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#" style="color: black; font-size: 1.2rem;">Historia</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('historia') }}" style="color: black; font-size: 1.2rem;">Historia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#" style="color: black; font-size: 1.2rem;">Funciones</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('funciones') }}" style="color: black; font-size: 1.2rem;">Funciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#"
+                    <a class="nav-link px-4 py-3" href="{{ route('contactanos') }}"
                         style="background-color: #6baedc; font-weight: bold; color: black; font-size: 1.2rem;">Contactanos</a>
                 </li>
             </ul>

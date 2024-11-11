@@ -28,17 +28,17 @@
                         style="color: black; font-size: 1.2rem; border-radius: 0;">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href=="{{ route('que') }}"
+                    <a class="nav-link px-4 py-3" href="{{ route('que') }}"
                         style="background-color: #6baedc; font-weight: bold; color: black; font-size: 1.2rem;">¿Que es?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#" style="color: black; font-size: 1.2rem;">Historia</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('historia') }}" style="color: black; font-size: 1.2rem;">Historia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#" style="color: black; font-size: 1.2rem;">Funciones</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('funciones') }}" style="color: black; font-size: 1.2rem;">Funciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#"
+                    <a class="nav-link px-4 py-3" href="{{ route('contactanos') }}"
                         style="color: black; font-size: 1.2rem;">Contactanos</a>
                 </li>
             </ul>
@@ -61,7 +61,7 @@
     </div>
 
     <div class="text-center border-3 mt-5 mb-12 border-black w-100 h-auto" >
-        <img class="border border-5 border-black" src="images/iot2.jpeg" style="width: 700px; height: 400px">
+        <img class="border border-5 border-black" src="images/dob.png" style="width: 700px; height: 400px">
 
     </div>
 

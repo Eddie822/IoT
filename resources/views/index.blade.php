@@ -28,16 +28,19 @@
                         style="background-color: #6baedc; color: black; font-weight: bold; font-size: 1.2rem; border-radius: 0;">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href=="{{ route('que') }}" style="color: black; font-size: 1.2rem;">¿Que es?</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('que') }}"
+                        style="color: black; font-size: 1.2rem;">¿Que es?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#" style="color: black; font-size: 1.2rem;">Historia</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('historia') }}"
+                        style="color: black; font-size: 1.2rem;">Historia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#" style="color: black; font-size: 1.2rem;">Funciones</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('funciones') }}"
+                        style="color: black; font-size: 1.2rem;">Funciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#"
+                    <a class="nav-link px-4 py-3" href="{{ route('contactanos') }}"
                         style="color: black; font-size: 1.2rem;">Contactanos</a>
                 </li>
             </ul>
@@ -56,18 +59,17 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="1000">
-                    <img src="Images/iot1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-item active" data-bs-interval="7000">
+                    <img src="Images/ay.jpg" class="d-block w-100" alt="..."
+                        style="height: 500px; object-fit: cover;">
                 </div>
-                <div class="carousel-item" data-bs-interval="1000">
-                    <img src="Images/iot2.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
+                <div class="carousel-item" data-bs-interval="7000">
+                    <img src="Images/fak.jpg" class="d-block w-100" alt="..."
+                        style="height: 500px; object-fit: cover;">
                 </div>
-                <div class="carousel-item" data-bs-interval="1000">
-                    <img src="Images/iot3.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
+                <div class="carousel-item" data-bs-interval="7000">
+                    <img src="Images/temgpsueno.jpg" class="d-block w-100" alt="..."
+                        style="height: 500px; object-fit: cover;">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -84,7 +86,7 @@
     </div>
 
     <div class="bg-image d-flex flex-column justify-content-center align-items-center text-white mt-5 mb-5"
-        style="background-image: url('Images/iot.jpg');
+        style="background-image: url('Images/cua.png');
         background-size: cover; background-position: center; height: 100vh; position: relative;">
 
         <!-- Overlay gris -->
@@ -108,7 +110,7 @@
     </div>
 
     <div class="bg-image d-flex flex-column justify-content-center align-items-center text-white mt-5 mb-5"
-        style="background-image: url('Images/iot.jpg');
+        style="background-image: url('Images/1.png');
         background-size: cover; background-position: center; height: 100vh; position: relative;">
 
         <!-- Overlay gris -->
@@ -125,12 +127,13 @@
                 pasaron.
             </p>
             <a href="#" class="btn btn-primary btn-lg mt-3"
-                style="background-color: #6baedc; border-radius: 20px; font-size: 1.5rem; padding: 1rem 2rem;">Conoce la historia</a>
+                style="background-color: #6baedc; border-radius: 20px; font-size: 1.5rem; padding: 1rem 2rem;">Conoce
+                la historia</a>
         </div>
     </div>
 
     <div class="bg-image d-flex flex-column justify-content-center align-items-center text-white mt-5"
-        style="background-image: url('Images/iot.jpg');
+        style="background-image: url('Images/tri.png');
         background-size: cover; background-position: center; height: 100vh; position: relative;">
 
         <!-- Overlay gris -->
@@ -147,9 +150,11 @@
                 actualmente
             </p>
             <a href="#" class="btn btn-primary btn-lg mt-3"
-                style="background-color: #6baedc; border-radius: 20px; font-size: 1.5rem; padding: 1rem 2rem;"> Funciones del IoT</a>
+                style="background-color: #6baedc; border-radius: 20px; font-size: 1.5rem; padding: 1rem 2rem;">
+                Funciones del IoT</a>
         </div>
     </div>
 
 </body>
+
 </html>

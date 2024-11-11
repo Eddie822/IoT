@@ -28,18 +28,19 @@
                         style="color: black; font-size: 1.2rem; border-radius: 0;">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href=="{{ route('que') }}"
+                    <a class="nav-link px-4 py-3" href="{{ route('que') }}"
                         style="color: black; font-size: 1.2rem;">¿Que es?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#"
+                    <a class="nav-link px-4 py-3" href="{{ route('historia') }}"
                         style="background-color: #6baedc; font-weight: bold; color: black; font-size: 1.2rem;">Historia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#" style="color: black; font-size: 1.2rem;">Funciones</a>
+                    <a class="nav-link px-4 py-3" href="{{ route('funciones') }}"
+                        style="color: black; font-size: 1.2rem;">Funciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-4 py-3" href="#"
+                    <a class="nav-link px-4 py-3" href="{{ route('contactanos') }}"
                         style="color: black; font-size: 1.2rem;">Contactanos</a>
                 </li>
             </ul>
@@ -188,7 +189,7 @@
                 utilizando sensores conectados para optimizar el transporte,
                 la gestión de residuos y la energía.</li>
         </ul>
-    </div>  
+    </div>
 
     <div class="text-center mt-5 fs-1 mx-5">
         <p> Cada dispositivo está equipado con sensores, software y otras
@@ -201,8 +202,8 @@
     </div>
 
     <div class="bg-image d-flex flex-column justify-content-center align-items-center text-white mt-5"
-        style="background-image: url('Images/iot.jpg');
-        background-size: cover; background-position: center; height: 100vh; position: relative;">
+        style="background-image: url('Images/vid.png');
+            background-size: cover; background-position: center; height: 100vh; position: relative;">
 
         <!-- Overlay gris -->
         <div class="overlay"
@@ -211,9 +212,18 @@
 
         <!-- Contenido encima del overlay -->
         <div class="content text-center mt-3" style="position: relative; z-index: 1;">
-            
+            <!-- Texto centrado encima del video -->
+            <p class="text-center text-white display-2"><strong>Video de refuerzo</strong></p>
+
+            <!-- Video de YouTube centrado -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pEXbGUWuA5E"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen style="max-width: 80%; max-height: 80%; border: none;"></iframe>
         </div>
     </div>
+
+
 </body>
 
 </html>
