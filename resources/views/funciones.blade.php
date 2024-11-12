@@ -29,7 +29,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link px-4 py-3" href="{{ route('que') }}"
-                        style="color: black; font-size: 1.2rem;">¿Que es?</a>
+                        style="color: black; font-size: 1.2rem;">¿Qué es?</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link px-4 py-3" href="{{ route('historia') }}"

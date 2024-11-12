@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('formulario', function (Blueprint $table) {
             $table->id();
-            $table->string('nome');
+            $table->string('nombre');
             $table->string('email');
             $table->string('telefono');
             $table->longText('mensaje');

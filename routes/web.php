@@ -1,15 +1,12 @@
 <?php
 
+use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-// En routes/web.php
-Route::get('/index', function () {
     return view('index');
 })->name('index');
+
 
 Route::get('/historia', function () {
     return view('historia');
@@ -26,3 +23,5 @@ Route::get('/funciones', function () {
 Route::get('/contactanos', function () {
     return view('contactanos');
 })->name('contactanos');
+
+Route::post('/post', [FormController::class, 'store']);
