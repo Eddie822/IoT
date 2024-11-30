@@ -11,7 +11,7 @@ class FormularioRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,10 +22,10 @@ class FormularioRequest extends FormRequest
     public function rules(): array
     {
         return [
-                'nombre' => 'required| max:255',
-                'correo' => 'required|unique:formulario',
-                'telefono' => 'required|min_digits:10|max_digits:10',
-                'mensaje'=> 'required'
+                'nombre' => 'required|max:255',
+            'email' => 'required|email|unique:formulario,email',
+            'telefono' => 'required|digits:10', 
+            'mensaje' => 'required',
         ];
     }
 }

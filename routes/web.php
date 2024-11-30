@@ -24,4 +24,6 @@ Route::get('/contactanos', function () {
     return view('contactanos');
 })->name('contactanos');
 
-Route::post('/post', [FormController::class, 'store']);
+Route::post('/contacto', [FormController::class, 'store'])->name('contacto.store');
+
+Route::get('/contactanos', [FormController::class, 'showForm'])->name('contactanos');
